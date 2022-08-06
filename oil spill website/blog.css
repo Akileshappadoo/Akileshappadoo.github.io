@@ -1,0 +1,130 @@
+.section-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  margin-top: 100px;
+  background-position: center;
+  height: 50%;
+  z-index: -1;
+}
+/*=========================================================
+	BLOG
+===========================================================*/
+
+.article {
+  margin-bottom: 60px;
+}
+
+.article .article-img {
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.article .article-img a {
+  position: relative;
+  display: block;
+}
+
+.article .article-img a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #83ba09;
+  opacity: 0;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+}
+
+.article .article-img a:hover:after {
+  opacity: 0.6;
+}
+
+.article .article-img img {
+  width: 100%;
+}
+
+.article .article-content {
+  margin-top: 30px;
+}
+
+.article .article-content .article-title {
+  text-transform: capitalize;
+}
+
+.article .article-content .article-title>a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.article .article-content .article-meta {
+  margin: 15px 0px 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.article .article-content .article-meta li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/*----------------------------*\
+	pagination
+\*----------------------------*/
+
+.article-pagination {
+  margin-bottom: 60px;
+}
+
+.article-pagination li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.article-pagination li a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #5f646b;
+  text-align: center;
+  background-color: #FFF;
+  border: 1px solid #e6e6ea;
+  -webkit-transition: 0.3s border-color;
+  transition: 0.3s border-color;
+}
+
+.article-pagination li a:hover {
+  border-color: #83ba09;
+}
+
+.article-pagination li.active {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #5f646b;
+  text-align: center;
+  background-color: #FFF;
+  border: 1px solid #83ba09;
+}
+
+.article-pagination li.active:hover {
+  cursor: default;
+}
+.header-content{
+	color: white;
+	margin-top: 5px;
+	font-weight:500;
+	font-size: 18px;
+}
+.widget-post li{
+	list-style: none;
+}

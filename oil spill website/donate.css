@@ -1,0 +1,107 @@
+<!-- font -->
+.body {
+  font-family: Arial, sans-serif;
+  
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 0px;
+  color: #23262a;
+  font-weight: 700;
+  letter-spacing: 0px;
+}
+
+h1 {
+  font-size: 43px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 21px;
+}
+.container{
+	background-color:#37527d;
+	border: none;
+  border-radius: 25px;
+}
+.section-title{
+	font-weight:700;
+}
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	font-family: Arial, sans-serif;
+}
+/*=========================================================
+	causes
+===========================================================*/
+
+.causes {
+  margin-bottom: 20px;
+}
+
+.causes .causes-img {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.causes .causes-img a:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #83ba05;
+  opacity: 0;
+  -webkit-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+}
+
+.causes .causes-img a:hover:after {
+  opacity: 0.6;
+}
+
+.causes .causes-img img {
+  width: 100%;
+}
+
+
+
+.causes .causes-content {
+  margin-top: 25px;
+  
+}
+
+.causes .causes-content h3 {
+  text-transform: capitalize;
+
+  
+}
+
+.causes .causes-content h3>a {
+  font-weight: 700;
+  text-decoration: none;
+  color:#000;
+}
+
+.causes .causes-content .causes-donate {
+  margin-top: 20px;
+}
+
+
+
+.causes-details .causes-donate {
+  float: right;
+  margin-top: 30px;
+}
